@@ -1,6 +1,6 @@
 var getUserMedia = require('getusermedia')
 var Peer = require('simple-peer')
-
+  //Chaged
 getUserMedia({ video: true, audio: true }, function(err, stream) {
   if (err) return console.error(err)
 
